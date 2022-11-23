@@ -1,0 +1,80 @@
+.popup {
+  width: 800px;
+}
+.skeleton-box {
+  padding: 20px;
+}
+.skeleton {
+  margin-bottom: 10px;
+}
+.skeleton:last-child {
+  margin-bottom: 0;
+}
+.ext-item {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  border-top: 3px solid transparent;
+  margin-top: -1px;
+}
+.ext-item:hover {
+  border-top-color: royalblue;
+  background-color: rgb(240, 244, 254);
+  transition: border-top-color .5s;
+}
+.item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-head h3 {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px;
+}
+.item-description {
+  color: #333;
+  padding: 10px;
+  background: rgb(193, 208, 255);
+}
+.item-id {
+  margin-top: 10px;
+  color: #555;
+}
+.popup-head {
+  text-align: right;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.popup-head-ctrl {
+  cursor: pointer;
+  color: #999;
+}
+.popup-head-ctrl:last-child {
+  font-size: 16px;
+}
+.item {
+  display: flex;
+}
+.item strong {
+  min-width: 140px;
+}
+.concise-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ext-item-concise {
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+}
+.ext-item-concise img {
+  margin: 0 auto;
+}
+.ext-item-concise h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.active {
+  color: royalblue;
+}
