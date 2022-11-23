@@ -47,7 +47,7 @@ function IndexPopup() {
     if (allExts === null) return
     const value = e.currentTarget.value
     if (value) {
-      setExts(allExts.filter(item => item.name.includes(value)))
+      setExts(allExts.filter(item => new RegExp(value, 'i').test(`${item.name}${item.description}`)))
       return
     }
     setExts(allExts)
