@@ -33,9 +33,6 @@
   "manifest": {
     "permissions": [
       "management"
-    ],
-    "host_permissions": [
-      "https://*/*"
     ]
   }
 }
